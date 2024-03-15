@@ -1,0 +1,30 @@
+{
+    "name": "Load inject",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "servo": "*",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.9",
+        "Soroban": "github:aorczyk/soroban#v1.0.11"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
